@@ -1,56 +1,56 @@
 {
-  "name": "ts-tracking-number",
-  "version": "1.0.16",
-  "description": "Detect and validate tracking numbers for USPS, UPS, FedEx, and other major couriers.",
-  "keywords": [
-    "tracking number",
-    "track package",
-    "usps",
-    "ups",
-    "fedex",
-    "amazon",
-    "dhl",
-    "ontrac",
-    "s10"
-  ],
-  "main": "./dist/util.js",
-  "module": "./dist/util.js",
-  "types": "./dist/util.d.ts",
-  "scripts": {
-    "build": "rm -rf ./dist && yarn test && tsc -p ./tsconfig.json",
-    "lint": " yarn eslint --cache --ext .ts src/",
-    "test": "mocha --exit -r ts-node/register src/**/*.spec.ts"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rjbrooksjr/ts-tracking-number.git"
-  },
-  "author": {
-    "name": "Rich Brooks",
-    "email": "rbrooks@gmail.com"
-  },
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rjbrooksjr/ts-tracking-number/issues"
-  },
-  "homepage": "https://github.com/rjbrooksjr/ts-tracking-number#readme",
-  "devDependencies": {
-    "@types/chai": "^4.2.12",
-    "@types/mocha": "^8.0.3",
-    "@types/ramda": "^0.27.11",
-    "@typescript-eslint/eslint-plugin": "^3.7.0",
-    "@typescript-eslint/parser": "^3.7.0",
-    "chai": "^4.2.0",
-    "eslint": "^7.5.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-functional": "^3.0.1",
-    "eslint-plugin-import": "^2.22.0",
-    "mocha": "^8.1.2",
-    "prettier": "^2.0.5",
-    "ts-node": "^8.10.2",
-    "typescript": "^3.9.7"
-  },
-  "dependencies": {
-    "ramda": "^0.27.0"
-  }
+	"name": "@lachero/ts-tracking-number",
+	"version": "1.0.19",
+	"description": "Detect and validate tracking numbers for USPS, UPS, FedEx, and other major couriers.",
+	"keywords": [
+		"tracking number",
+		"track package",
+		"usps",
+		"ups",
+		"fedex",
+		"amazon",
+		"dhl",
+		"ontrac",
+		"s10"
+	],
+	"main": "./dist/util.js",
+	"module": "./dist/util.js",
+	"types": "./dist/util.d.ts",
+	"scripts": {
+		"build": "rm -rf ./dist && yarn test && tsc -p ./tsconfig.json",
+		"lint": "yarn eslint --cache --ext .ts src/",
+		"test": "mocha --exit -r ts-node/register src/**/*.spec.ts"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rjbrooksjr/ts-tracking-number.git"
+	},
+	"author": {
+		"name": "Rich Brooks",
+		"email": "rbrooks@gmail.com"
+	},
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/rjbrooksjr/ts-tracking-number/issues"
+	},
+	"homepage": "https://github.com/rjbrooksjr/ts-tracking-number#readme",
+	"devDependencies": {
+		"@types/chai": "^4.2.12",
+		"@types/mocha": "^8.0.3",
+		"@types/ramda": "^0.27.11",
+		"@typescript-eslint/eslint-plugin": "^3.7.0",
+		"@typescript-eslint/parser": "^3.7.0",
+		"chai": "^4.2.0",
+		"eslint": "^7.5.0",
+		"eslint-config-prettier": "^6.11.0",
+		"eslint-plugin-functional": "^3.0.1",
+		"eslint-plugin-import": "^2.22.0",
+		"mocha": "^8.1.2",
+		"prettier": "^2.0.5",
+		"ts-node": "^8.10.2",
+		"typescript": "^3.9.7"
+	},
+	"dependencies": {
+		"ramda": "^0.27.0"
+	}
 }
